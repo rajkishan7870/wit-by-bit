@@ -13,9 +13,13 @@
 
 
 .insideButton{
-    @apply w-[45px] h-[20px] absolute left-[70px];
+    @apply w-[45px] h-[20px] absolute left-[70px] text-xs font-['Work_Sans'] font-medium text-[14px] leading-[20px] tracking-[0%] flex justify-start;
 }
 
 .rectangle{
-    @apply w-[20px] h-[20px] bg-gray-100 border border-gray-300;
+    @apply w-[15px] h-[15px] absolute left-[50px] items-center bg-gray-100 border border-gray-300 rounded-[4px];
+}
+
+.buttonContent{
+    @apply flex flex-row items-center
 }
