@@ -1,0 +1,19 @@
+.productHeading{
+    @apply flex flex-row
+}
+
+
+.productTypo{
+    @apply w-[107px] h-[28px] absolute top-[24px] left-[344px] font-['Work_Sans'] font-semibold text-[24px] leading-[100%] tracking-[0%];
+
+}
+
+.addCategory{
+    @apply w-[160px] h-[42px] absolute top-[24px] left-[1152px] rounded-[8px] px-[27px] py-[9px] gap-[10px] bg-[#E1E7EB] text-sky-500 border hover:border-sky-500;
+
+}
+
+.addProduct{
+    @apply w-[160px] h-[42px] absolute top-[24px] left-[1328px] rounded-[8px] px-[31px] py-[9px] gap-[10px] bg-[#1F8CD0] text-white border hover:border-sky-900;
+
+}
