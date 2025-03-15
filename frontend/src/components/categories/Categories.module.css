@@ -28,9 +28,13 @@
   }
 
 .productDetails{
-    @apply m-1
+    @apply m-1 flex flex-col gap-4
 }
 
 .brandName{
-    @apply inline-block bg-sky-100 w-auto h-auto rounded-md px-2 py-1 text-sky-800 text-xs
+    @apply bg-sky-100 w-auto h-auto rounded-md px-2 py-1 text-sky-800 text-xs self-start;
+}
+
+.productName{
+    @apply text-sm font-semibold;
 }
