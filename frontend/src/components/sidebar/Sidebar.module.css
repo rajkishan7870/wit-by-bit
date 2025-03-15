@@ -1,0 +1,21 @@
+.parentContainer{
+    @apply flex flex-col items-center gap-3;
+}
+
+.spanInsideButton{
+    @apply flex flex-row absolute left-[43px];
+}
+
+
+.sideButton{
+    @apply bg-sky-100 w-[272px] h-[40px] rounded-[8px] border hover:border-sky-500 flex flex-row items-center;
+}
+
+
+.insideButton{
+    @apply w-[45px] h-[20px] absolute left-[70px];
+}
+
+.rectangle{
+    @apply w-[20px] h-[20px] bg-gray-100 border border-gray-300;
+}

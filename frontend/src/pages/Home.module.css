@@ -1,0 +1,11 @@
+.parentContainer{
+    @apply flex flex-row
+}
+
+.sidebarContainer{
+    @apply w-[320px] h-screen border border-[rgba(0,0,0,0.08)]
+}
+
+.productsContainer{
+    @apply w-5/6 h-screen border border-gray-950
+}
