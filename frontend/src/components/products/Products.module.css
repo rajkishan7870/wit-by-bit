@@ -1,0 +1,3 @@
+.productScreenContainer{
+    @apply flex flex-col
+}
