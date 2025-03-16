@@ -1,18 +1,28 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import style from "./ProductHeading.module.css"
-import { useNavigate } from 'react-router-dom'
+import { useSetRecoilState } from 'recoil';
+import { addProductState, catModalState } from '../../recoil/Atom';
+import { useNavigate } from 'react-router-dom';
 
 const ProductHeading = () => {
 
-    const navigate = useNavigate();
+    const navigate = useNavigate()
+    const [showaddproduct, setShowaddproduct] = useState(false)
+    const setShowAddProductRecoil = useSetRecoilState(addProductState)
 
     const handleAddCategory = () => {
         navigate("/addcat")
     }
 
     const handleAddProduct = () => {
-
+        setShowaddproduct(true)
+    
     }
+
+    useEffect(() => {
+        setShowAddProductRecoil(showaddproduct)
+    }, [showaddproduct]);
+
 
     return (
         <div className={style.productHeading}>

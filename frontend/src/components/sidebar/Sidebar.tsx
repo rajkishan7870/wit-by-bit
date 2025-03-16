@@ -10,9 +10,9 @@ const Sidebar: React.FC<Props> = () => {
 
   return (
     <div className={style.parentContainer}>
-      {sideBarArray.map((ele) => {
+      {sideBarArray.map((ele, index) => {
         return (
-          <button className={style.sideButton}>
+          <button key={index} className={style.sideButton}>
 
             <span className={style.buttonContent}>
               <div className={style.rectangle}></div>
