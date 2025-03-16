@@ -1,0 +1,32 @@
+.description{
+    @apply absolute w-[105px] h-[26px] top-[76px] left-[344px] rounded-lg p-[4px_12px] gap-[10px] bg-[rgba(218,237,249,1)];
+
+}
+
+.variants{
+    @apply absolute w-[80px] h-[24px] top-[77px] left-[489px] rounded-lg p-[4px_12px] gap-[10px];
+
+}
+
+.combination{
+    @apply absolute w-[119px] h-[24px] top-[77px] left-[609px] rounded-lg p-[4px_12px] gap-[10px];
+
+}
+
+.priceInfo{
+    @apply absolute w-[90px] h-[24px] top-[77px] left-[768px] rounded-lg p-[4px_12px] gap-[10px];
+
+}
+
+.firstArrow{
+    @apply absolute w-[20px] h-[20px] top-[79px] left-[459px]
+
+}
+
+.secondArrow{
+    @apply absolute w-[20px] h-[20px] top-[79px] left-[579px]
+}
+
+.thirdArrow{
+    @apply absolute w-[20px] h-[20px] top-[79px] left-[738px]
+}
